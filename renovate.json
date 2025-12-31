@@ -1,0 +1,12 @@
+{
+  "extends": ["config:recommended"],
+  "automerge": false,
+  "timezone": "UTC",
+  "rangeStrategy": "bump",
+  "packageRules": [
+    {
+      "matchManagers": ["npm", "pip", "cargo"],
+      "groupName": "all-dependencies"
+    }
+  ]
+}
